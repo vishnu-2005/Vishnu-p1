@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/** navigation bar **/
+#nav{
+    height: 4vw;
+    width: 100%;
+    background-color: #0f1111;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    color:white;
+    font-size: 1vw;
+}
+
+#nav .button{
+    background-color: #0f1111;
+    color: white;
+    border: 0.1vw solid #0f1111;
+}
+
+#nav .button:hover{
+    border:0.2vw solid white;
+}
+/*nav-left*/
+#d1{
+    width:8%;
+    height:100%;
+    display:flex;
+    align-items: center;
+}
+#d1 img{
+    width: 100%;
+}
+#nav-left1{
+    width:7%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#nav-left1 i{
+    font-size: 1.5vw;
+}
+#nav-left1 a{
+    display: flex;
+    margin: 0.5vw;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*search*/
+.search{
+    height: 4vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:50%;
+}
+#select{
+    height: 60%;
+    width:6%;
+    border: 1px solid transparent;
+    background-color: lightgray;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius:10% ;
+    font-size: 0.85vw;
+}
+#selectplaceholder{
+    color: #0f1111;
+    display: none;
+}
+#searchbar{
+    width:88%;
+    height:60%;
+    border: 1px solid transparent;
+    font-size: 1vw;
+    padding: 0.5em;
+}
+#searchicon{
+    width:6%;
+    height:60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    color:#0f1111;
+    border: 0;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius:10% ;
+    font-size: 1.4vw;
+}
+
+/*nav right*/
+#nav-right1{
+    height: 100%;
+    width: 5%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#nav-right1 img{
+    width: 1.5vw;
+    align-self: center;
+}
+#nav-right1 select{
+    width:60%;
+    height:50%;
+    align-self: center;
+    border: transparent;
+    font-weight: 600;
+    font-size: 1vw;
+    color: white;
+    background-color: #0f1111;
+}
+#nav-right21{
+    height: 100%;
+    width: 8.5%;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+#nav-right2{
+    height: 100%;
+    width: 5%;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+#p1{
+    font-size: 0.85vw;
+}
+#nav-right3{
+    height: 100%;
+    width: 5%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#nav-right3 i{
+    font-size: 2vw;
+}
+#nav-right3 p{
+    align-self: center;
+    font-size: 1vw;
+}
+#p2{
+    font-weight: 600;
+    font-size: 1vw;
+}
+
+.hover:hover{
+    border:0.15vw solid white;
+}
+
+#selectplaceholder1{
+    display:none;
+}
+option{
+    color: black;
+    background-color: white;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-align: center;
+}
+
+/* nav1 */
+#nav1{
+    height: 2.4vw;
+    width: 100%;
+    display: flex;
+    background-color: #232f3e;
+    color: white;
+}
+#nav11{
+    height: 2.4vw;
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+#nav1 a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+    padding: 1vw;
+    font-weight: 500;
+}
+#nav111{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 4vw;
+    padding: 0.5vw;
+}
+#nav111 i{
+    font-size: 1vw
+}
+
+/* hero section */
+
+#hero{
+    width: 100%;
+    height: 40vw;
+    background-image: url("hero.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+#herotext{
+    width: 95%;
+    height: 2.5vw;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.05vw;
+    margin-bottom: 1vw;
+}
+
+#herotext a{
+    color: blue;
+}
+
+#layer1{
+    height: 22vw;
+    width: 100%;
+    background-color: #e2e7e6cb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{
+    width: 23%;
+    height: 20vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box p{
+    font-weight: 600;
+    font-size: 1.2vw;
+}
+.box img{
+    width: 70%;
+}
+.box a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box #showmore{
+    margin-left: 2vw;
+    font-size: 0.85vw;
+    color: blue;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#layer2{
+    height: 22vw;
+    width: 100%;
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*footer*/
+#foot1{
+    width: 100%;
+    height: 2.5vw;
+    background-color: #37475A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#foot1 button{
+    font-size: 0.85vw;
+    background-color: #37475A;
+    color: white;
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+#foot2{
+    width: 100%;
+    height: 30vw;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2vw;
+}
+#foot2 div{
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#foot2 h4{
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+#foot2 a{
+    padding-top: 0.5vw;
+    color: rgba(251, 248, 248, 0.64);
+    font-size: 1vw;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+#foot3{
+    background-color: #0f1111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 4vw;
+    font-size: 0.85vw;
+}
+
+#foot3 div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#foot3 a{
+    padding: 0.5vw;
+}
